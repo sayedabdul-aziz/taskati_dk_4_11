@@ -63,7 +63,7 @@ class _HomeViewState extends State<HomeView> {
               const SizedBox(height: 15),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
+                children: [
                   DatePicker(
                     DateTime.now(),
                     height: 100,
